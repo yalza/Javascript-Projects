@@ -1,0 +1,7 @@
+{
+  "workbench.colorCustomizations": {
+    "minimap.background": "#00000000"
+  },
+  "git.ignoreLimitWarning": true,
+  "liveServer.settings.port": 5501
+}

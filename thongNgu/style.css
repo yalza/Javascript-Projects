@@ -1,0 +1,78 @@
+:root {
+  --color-logo-: rgb(207, 207, 32);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 11rem;
+  margin: 0 13rem;
+  border-bottom: 2px solid black;
+}
+
+.logo > img {
+  width: 8rem;
+  border-radius: 6rem;
+  margin-right: 2rem;
+}
+
+.header__title {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+}
+
+.logo {
+  display: flex;
+
+  align-items: center;
+}
+
+.logo > p {
+  border-bottom: 3px solid var(--color-logo-);
+  color: var(--color-logo-);
+  font-weight: 600;
+}
+
+.icon {
+  align-items: center;
+  line-height: 8rem;
+}
+
+.icon > i {
+  margin-left: 4rem;
+}
+
+.fa-bag-shopping {
+  color: var(--color-logo-);
+}
+
+/* nav */
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem 14rem;
+}
+
+.nav-list > li{
+    list-style: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: black;
+}
